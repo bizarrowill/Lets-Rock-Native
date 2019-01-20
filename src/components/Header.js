@@ -23,7 +23,7 @@ const styles = {
     paddingTop: 20,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.9,
+    shadowOpacity: 0.7,
     elevaton: 4,
     position: "relative"
   },
