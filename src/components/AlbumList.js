@@ -8,7 +8,7 @@ class AlbumList extends Component {
 
   componentDidMount() {
     axios
-      .get("https://rallycoding.herokuapp.com/api/music_albums")
+      .get("https://bizarrofriend.herokuapp.com/api/albums")
       .then(response => this.setState({ albums: response.data }));
   }
 

@@ -12,8 +12,8 @@ import AlbumList from "./src/components/AlbumList";
 // Create a component
 const App = () => {
   return (
-    <View style={{ flex: 1 }}>
-      <Header headerText={"Aye Rock!"} />
+    <View style={{ flex: 1, backgroundColor: "gray" }}>
+      <Header headerText={"Samuelthe1st"} />
       <AlbumList />
     </View>
   );
